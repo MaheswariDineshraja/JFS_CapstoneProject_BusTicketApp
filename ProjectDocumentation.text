@@ -1,0 +1,40 @@
+# Getting Started
+
+
+
+# Bus Booking Application
+
+## Overview
+
+This Spring Boot application allows users to manage bus bookings, register new users, and perform various operations related to bus booking data.
+
+## Prerequisites
+
+- Java JDK 17
+- Maven
+- MySQL
+- An IDE - IntelliJ IDEA
+- Git
+
+## Setup Instructions
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone reponame.git
+   cd your-repo
+
+2. Configure the Application
+Update the src/main/resources/application.properties file with your database and email configurations.
+
+3. Build and Run the Application
+For Maven:
+bash
+Copy code
+mvn clean install
+mvn spring-boot:run
+IDE:
+Right click project folder->Run As -> Sprint Boot App 
+
+4. Access Swagger UI
+Navigate to http://localhost:8080/swagger-ui.html to view and interact with the API documentation.
